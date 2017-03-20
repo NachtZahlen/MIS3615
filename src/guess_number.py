@@ -9,7 +9,7 @@
 #
 # Hello! What is your name?
 # >>>James
-# Well, James, I am thinking of a number between 1 and 100.
+# Well, James, I am thinking of a number between 1 and 1000.
 # Take a guess.
 # >>>50
 # Your guess is too high.
@@ -19,3 +19,5 @@
 # Take a guess.
 # >>>42
 # Good job, James! You guessed my number in 3 guesses!
+
+
