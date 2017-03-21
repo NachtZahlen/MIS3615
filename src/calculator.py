@@ -8,10 +8,14 @@ def quadratic(a, b, c):
         x_1 = (-b + math.sqrt(discriminant)) / (2 * a)
         x_2 = (-b - math.sqrt(discriminant)) / (2 * a)
         return x_1, x_2
-
     else:
         return None, None
 
+def my_abs(a):
+    if a < 0:
+        return -a
+    else:
+        return a
 
 def main():
     a = float(input('please enter a number:'))
