@@ -10,7 +10,6 @@ def quadratic(a, b, c):
         return x_1, x_2
 
     else:
-        print('No Real Number Solution.')
         return None, None
 
 
@@ -18,7 +17,11 @@ def main():
     a = float(input('please enter a number:'))
     b = float(input('please enter a number:'))
     c = float(input('please enter a number:'))
-    print('Results are:', quadratic(a, b, c))
+    sol_1, sol_2 = quadratic(a, b, c)
+    if sol_1:
+        print('Results are: {} and {}.'.format(sol_1, sol_2))
+    else:
+        print('No Real Number Solution.')
 
 
 if __name__ == '__main__':
