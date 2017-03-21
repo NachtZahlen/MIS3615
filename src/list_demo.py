@@ -26,26 +26,34 @@ L = [
     ['Adam', 'Bart', 'Lisa']
 ]
 
-print(L[0][0])
-print(L[2][2])
-print(L[1][2][1])
-
-
-
+# print(L[0][0])
+# print(L[2][2])
+# print(L[1][2][1])
 
 numbers = [2, 0, -3]
 
-for i in range(len(numbers)):
-    numbers[i] = numbers[i] * 2
+# for i in range(len(numbers)):
+#     numbers[i] = numbers[i] * 2
+#
+# print(numbers)
 
+numbers.append(100)
 print(numbers)
 
+numbers.remove(0)
+print('after removing:', numbers)
 
+numbers.pop(0)
+print('after popping 0:', numbers)
 
+team = 'New England Patriots has a lot of great players and a great coach.'
+words = team.split()
 
-my_list = ['spam', 1,
-           ['New England Patriots', 'Buffalo Bills', 'Miami Dolphins', 'New York Giants'],
-           [1, 2, 3]
-           ]
-print(len(my_list))
-print(len(my_list[2]))
+for word in words:
+    print(word)
+
+print(len(words))
+
+s = 'spam-spam-spam'
+t = s.split('-')
+print(t)
