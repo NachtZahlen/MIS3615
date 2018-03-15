@@ -7,7 +7,7 @@ A brief introduction to Text Processing and Analysis using Python.
     2. via API
 - Scrape website
 
-###2. Pre-process Data
+### 2. Pre-process Data
 - Remove unneeded data
     1. remove HTML tags
     2. remove other unneeded parts
@@ -28,7 +28,7 @@ A brief introduction to Text Processing and Analysis using Python.
 ### 4. TF-IDF
 - Scikit.learn (<http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html>)
 
-###5. Training models (http://scikit-learn.org/stable/supervised_learning.html)
+### 5. Training models (http://scikit-learn.org/stable/supervised_learning.html)
 - Classification
 - Sentiment analysis
 - Topic Extraction 
@@ -37,7 +37,7 @@ A brief introduction to Text Processing and Analysis using Python.
     3. word2vec (<http://radimrehurek.com/gensim/models/word2vec.html>)
 - ...
 
-###6. Visualization
+### 6. Visualization
 - Matplotlib (<http://matplotlib.org/>)
 - Tag cloud: self-develop or find one in github
 - ...
