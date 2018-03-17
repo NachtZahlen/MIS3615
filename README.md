@@ -1,6 +1,6 @@
 # MIS3615
 
-This is a public repository for 2017 Spring MIS3615 (BootCamp for Tech-Savvy Entrepreneurs). Here you can find all the python files in class.
+This is a public repository for 2018 Spring MIS3615 (BootCamp for Tech-Savvy Entrepreneurs). Here you can find all the python files in class.
 
 ## Learning Resources:
 ### Documentation
