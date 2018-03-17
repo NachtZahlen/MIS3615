@@ -12,7 +12,7 @@ We know there are many Python packages to access information on the Internet. Fo
 
 ### Teaming Logistics:
 
-- You must work in a team of three people.
+- You must work in a team of no more than three people.
 - Only one of you should fork the base repo for this project. The one that forks the repo should then add the other team members as collaborators on GitHub for that repo.
 
 
@@ -80,7 +80,7 @@ Write a function that takes an address or place name as input and returns a prop
 
 Now that we can find the coordinates of a given place, let's take things one step further and find the closest public transportation stop to that location. 
 
-To accomplish this, we will use the *MBTA-realtime API* (<http://realtime.mbta.com/Portal/Home/Documents>). Read through the API quickstart guide, and check out the details for `stopsbylocation` in the API v2 documentation.
+To accomplish this, we will use the *MBTA-realtime API v2* (<https://cdn.mbtace.com/sites/default/files/2017-11/api-v2.pdf>). Read through the API documentation, and check out the details for `stopsbylocation` in the API **v2** documentation.
 
 **Note**: The MBTA documentation provides a testing API key that you can use for small numbers of requests, so you may not need to register.
 
